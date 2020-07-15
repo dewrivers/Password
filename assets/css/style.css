@@ -1,0 +1,159 @@
+/* ---------------------------------------- */
+/*  BODY STYLE  */
+/* ---------------------------------------- */
+
+body{
+    margin:0 auto;
+    color:whitesmoke;
+    font-family: 'Inconsolata', monospace;
+}
+
+/* ---------------------------------------- */
+/*  WRAPPER STYLE  */
+/* ---------------------------------------- */
+
+.wrapper{
+    width: 600px;
+    border: 1px black solid;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+/* ---------------------------------------- */
+/*  CONTENT STYLE  */
+/* ---------------------------------------- */
+
+.content{
+    margin: 20px;
+    background-color: gray;
+    box-shadow: 5px 10px 18px #888888;
+
+}
+
+/* ---------------------------------------- */
+/* H1  AND H2 STYLE  */
+/* ---------------------------------------- */
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    color: gray;
+}
+
+h2{
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+/* ---------------------------------------- */
+/* REANDONLY AREA */
+/* ---------------------------------------- */
+
+.textarea{
+    padding: 10%;
+    border: dashed 3px black;
+    margin-left: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 50%;
+    text-align: center;
+    color: #696969;
+    font-size: 25px;
+}
+
+/* ---------------------------------------- */
+/* BUTTON STYLE */
+/* ---------------------------------------- */
+
+#btn{
+    margin: 20px;
+}
+#password{
+    padding: 50px;
+}
+.generate{
+    width: 80%;
+    padding: 15px 40px;
+    background-color: green;
+    color:white;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+/* ------------------------------------------ */ 
+/* ROW: ALERT */ 
+/* ------------------------------------------ */
+
+
+.alert-copied {
+    text-align: center;
+    color: rgb(255,255,255,);
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.row.alert .alert-copied.active {
+    color: rgb(255,255,255,.1);
+}
+
+.row.alert .alert-copied p {
+    font-size: 12px;
+}
+/* ---------------------------------------- */
+/* MEDIA QUERIES */
+/* ---------------------------------------- */
+
+@media screen and (max-width: 980px) {
+    /* RESIZED CONTENT TO FIT 980PX  */
+    
+    body {
+        max-width: 980px;
+    }   
+    .wrapper {
+        width: 100%;
+        }
+}
+
+
+@media screen and (max-width: 786px) {
+    /* RESIZED CONTENT TO FIT 786px  */
+    body {
+        max-width: 786px;
+    } 
+    .wrapper {
+        width: 100%;
+        }
+    .generate {
+        margin-left: 10%;
+        margin-bottom: 10px;
+        }
+}
+
+
+@media screen and (max-width: 640px) {
+    /* RESIZE CONTENT TO FIT 640px  */
+    body {
+       max-width: 640px;
+   } 
+    .wrapper {
+       width: 100%;
+       }
+    .btn {
+        margin-top: 20px;
+       }
+    .generate {
+        margin-left: 22%;
+           
+       }
+   
+   }
+

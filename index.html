@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- TITTLE -->
+    <title>Password Generator</title>
+    <!-- STYLE LINKS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+   
+    
+</head>
+
+
+<body>
+    
+    <!--THE WRAPPER CONTAINER OF THE CONTENT-->
+    <div class="wrapper" id="wrapper">
+        <header>
+            <h1>Password Generator</h1>
+        </header>
+        <!-- CONTENT AREA -->
+        <div class="content" id="content">
+            <h2>Generate a Password</h2>
+            <hr>
+            <!-- READONLY AREA-->
+            <div class="textarea">
+            <textarea readonly id="password" placeholder="Your Secure Password"
+                aria-label="Generated Password"></textarea>
+            </div>    
+            <hr>
+<!-- ALERT TO COPY PASSWORD -->
+            <div class="row alert">
+                <div class="colum">
+                    <div class="alert-copied" id="alert-copied">
+                       <p><i class="fas fa-copy" ></i> Copy Password</p>
+                    </div>
+                </div>
+            </div>
+           
+
+            <!-- THIS IS A BUTTON -->
+            <div id="btn">
+                <!-- This is the generate password button -->
+                <button class="generate" id="generate">Generate
+                    Password </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- This is the Javascript document-->
+    <script src="js/javaScript.js"></script>
+
+
+</body>
+
+</html>
